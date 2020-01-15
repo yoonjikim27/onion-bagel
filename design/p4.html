@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8" />
+  <title> Detail : Feature : Design </title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/sub.css"> 
+  <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+  		//image slide
+		$(document).ready(function (){
+			//동작시간이나 easing 추가는 원하는 대로
+			function sliding () {
+				var _slide = $("#imgRoll ul");
+				function move () {
+					var firstEleWid= _slide.children().first().width();
+					//console.log(firstEleWid);
+					_slide.append(_slide.children().first().clone()).stop().animate({left:-firstEleWid},2500, function () {
+						$(this).children().first().remove();
+						$(this).css("left", 0);
+					});
+				}
+
+				move();
+				var slide = setInterval(move, 3000);
+				_slide.children().on({
+					mouseenter : function  () {
+							clearInterval(slide);
+					},
+					mouseleave : function  () {
+							setInterval(move, 3000);
+					}
+				});
+			}
+			sliding();
+			});
+
+		//box2 Draggable
+		$( "#box2 > ul > li" ).draggable({ 
+			containment: "#article1" , 
+			start :function  (event, ui) {
+				$(this).append("<p class='txt'>drag me</p>");
+			},
+			stop: function( event, ui ) {
+				$(this).find(".txt").remove();
+			},
+			cursorAt: {
+				top: 56, left: 56 
+			}
+		});
+	});
+
+  </script>
+  <!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+ </head>
+
+<body id="nav_0_0">
+  <header id="header">
+  <?php include("../include/header.php"); ?>
+  </header>
+  	<div id="container" class="clear">
+		<section id="article1">
+			<div id="box1">
+				<img src="../images/design/content/p4/atc1_main.png" width="478" height="496" alt="Moroccan Engraved Tiles">
+				<div class="b_tit">
+					<p>Moroccan Engraved Tiles</p>
+					<p>COVENT GARDEN, UNITED KINGDOM</p>
+				</div>
+				<div id="btn">
+					<a href="">VIEW FEATURES GRID</a>
+					<a href="">VIEW MATERIALS GRID</a>
+				</div>			
+				<p>Fresh, clean tones are fused with the human touch of hand-crafted<br>finishes and functional objects at Aesop Covent Garden. In marrying a<br>cultivated aesthetic to the seasonal changeability of nature, it becomes<br> a fitting ode to a local narrative borne of the necessary rigour of urban<br>planning and the traditional role that market commerce plays in a city.</p>
+			</div>
+			<div id="box2">
+				<ul>
+					<li class="img1"><a href="#">ceramic</a></li>		
+					<li class="img2"><a href="#">copper</a></li>	
+					<li class="img3"><a href="#">cement</a></li>
+					<li class="img4"><a href="#">lamp</a></li>
+						<!-- <div class="after">
+							<p><a href="">Ceramic<br>COVENT GARDEN<br>UNITED KINGDOM</a></p>				
+						</div>
+								
+					
+						<div class="img2 before">
+							
+						</div>
+						<div class="after">
+							<p><a href="">Copper<br>COVENT GARDEN<br>UNITED KINGDOM</a></p>						
+						</div>
+					</li>						
+					<li>
+						<div class="img3 before">
+							<img src="../images/design/content/p4/atc1_main3.jpg" width="222" height="213" alt="" />
+						</div>
+						<div class="after">
+							<p><a href="">Plaster<br>COVENT GARDEN<br>UNITED KINGDOM</a></p>
+						</div>		
+					</li>							
+					<li>
+						<div class="img4 before">
+							
+						</div>
+						<div class="after">
+							<p><a href="">Workstead Lighting<br>COVENT GARDEN<br>UNITED KINGDOM</a></p>
+						</div>			
+					</li> -->
+				</ul>					
+			</div>
+		</section>
+		<section id="article2">
+			<div id="box3">
+				<img src="../images/design/content/p4/box3.jpg" width="425" height="479" alt="">
+				<div id="tit">
+					<p>‘Come forth into the light of things, let nature be your teacher.’</p>
+					<strong>WILLIAM WORDSWORTH</strong>
+				</div>
+			</div>
+			<div id="box4">
+				<ul>
+					<li>
+						<img src="../images/design/content/p4/box4_1.jpg" width="204" height="230" alt="">
+						<div class="txt">
+							<strong>Aesop London,<br>United Kingdom</strong>
+							<p class="address">7 King Street, Covent Garden, London WC2E 8HN</p>
+							<p><a href="" class="more">VIEW STORE DETAILS<br>ON AESOP.COM</a></p>
+						</div>											
+					</li>
+					<li>
+						<img src="../images/design/content/p4/box4_2.jpg" width="204" height="230" alt="">
+						<div class="txt"><strong>London A - Z City Guide</strong>
+							<p class="address">We find reasons to visit London as often as possible.</p>
+							<p><a href="" class="more">VIEW MORE</a></p>		
+						</div>					
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="article3">
+			<p class="txt">Covent Garden is Aesop’s sixth store in London, representing an ongoing relationship not only with this<br> ancient city but also with French design studio Ciguë, who were responsible for the design. This fresh, cheery<br> space, resplendent in crisp hues of white and green, brings the architects’ artisanal savoir-faire to the fore,<br> while responding to multi-layered cultural cues of the surrounding neighbourhood – home to London’s first<br> public square and the historic open fresh produce market. Four distinct references formed the point of<br> departure: a Virginia Woolf quote; a Francis Bacon painting; a Henry Moore sculpture and an excerpt from<br> Beauty and the Beast. If the interiors are borne of disparate inspirations, the end product feels anything but<br> disconnected. Rather, consistent materials and colours create a purity of expression tempered by the<br> injection of nature’s unpredictability.</p>
+			<div id="imgRoll">
+				<ul>
+					<li class="img1"><img src="../images/design/content/p4/imgRoll1.jpg" width="1005" height="670" alt=""></li>
+					<li class="img2"><img src="../images/design/content/p4/imgRoll2.jpg" width="959" height="670" alt=""></li>
+					<li class="img3"><img src="../images/design/content/p4/imgRoll3.jpg" width="561" height="670" alt=""></li>
+					<li class="img4"><img src="../images/design/content/p4/imgRoll4.jpg" width="508" height="670" alt=""></li>
+					<li class="img5"><img src="../images/design/content/p4/imgRoll5.jpg" width="1005" height="670" alt=""></li>
+				</ul>				
+			</div>
+			<div class="txt2">
+				<strong>Further Information</strong>
+				<p><a href="http://cigue.net/en/" target="_blank">CIGUË</a></p>
+			</div>
+		</section>
+	</div>
+  	<footer id="footer">
+		<?php include("../include/footer.php"); ?>
+	</footer>	
+  </div>
+ </body>
+</html>
