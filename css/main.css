@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* 인덱스 왼쪽 헤더 푸터 */
+
+#wrapper{position:fixed;min-height:800px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
+.logo{margin:32px 0 0 20px;padding:0;width:192px;height:81px}
+
+
+#wrapper #header ul.navigation li a{font-size:16px;color:#fff}
+#gnb ul{margin-top:100px;}
+#gnb ul li{display:block;padding-bottom:20px;padding-left:20px;font-size:20px;}
+#gnb ul li a:hover{border-bottom:1px solid #fff}/* 밑줄 추가 */
+#wrapper footer{margin:260px 10px 20px;padding:15px 10px;border-top:2px solid #fff;border-bottom:2px solid #fff;}
+#wrapper footer p{font-size:12px;line-height:1.5;font-weight:lighter;color:#fff;margin-top:10px;}
+#wrapper footer p#fwb{font-weight:normal;}/* 안됨! */
+#wrapper footer p:first-child{margin-top:0;}
+#wrapper footer p a{font-weight:normal;text-decoration:underline;}
+.fix_bg{position:fixed;top:0px;left:0px;width:200px;height:100%;background:green;z-index:-10}/* 왜 이름의 태그가 없는데 이거 없으면 색깔이 빠지지 */
+/* 배경 투명도, width 215로 변경, footer 마크업변경(p태그로),footer css변경, font-weight변경 예정(lighter로) */
+/* 로고 사이즈, util메뉴(스토리,비솝과항산화...간격 사이즈 등 디테일 변경예정) */
+
+#headerBack{position:fixed;top:0px;left:0px;width:215px;height:100%;background:#004400;z-index:-200}
+
+/* 인덱스 오른쪽 컨텐츠 영역  */
+#sectionWrapper section{position:relative;min-height:814px}/* .area */
+
+/* -------- section1 만의 스타일 -------- */
+#content1 .area{position:absolute;top:50%;left:50%;width:1170px;height:400px;margin-top:-200px;margin-left:-485px;font-size:16px;color:#fff;text-align:center}/* margin-left:-585인데 왼쪽 #wrapper200픽셀을 계산하여 margin-left:-485px;로 줄여줌 */
+#content1.content1_text{top:50%}
+#content1 .content1_text h1{font-size:24px;line-height:1.5}
+#content1 .content1_text strong{display:inline-block;font-size:23px;padding-top:20px;margin-top:20px}
+#content1 .content1_text p{padding-top:40px;font-size:20px;line-height:1.5}
+
+/* 
+------------------------------------------------------ */
+
+#content1 .area .visualBtn{width:900px;height:130px;background:#0d381a;margin:100px auto 0;background:rgba(12, 56, 26, 0.7)}
+#content1 .area .visualBtn li{float:left;width:205px;height:110px;z-index:100;padding:10px}
+#content1 .area .visualBtn li a{display:block;text-align:center;height:110px;line-height:110px;font-size:20px;color:#fff;border:2px solid transparent}/* posr */
+#content1 .area .visualBtn li a:hover, #content1 .area .visualBtn li a:focus{border-color:#fff}/* 205 110 */
+
+#content1 .bg{display:none;position:absolute;top:0px;left:0px;width:100%;background:no-repeat center top;z-index:-1}/* 920 heigth 스크립트  */
+#content1 .bgtype1{display:block;background-image:url("../images/main/main-visual1.jpg")}
+#content1 .bgtype2{background-image:url("../images/main/main-visual2.jpg")}
+#content1 .bgtype3{background-image:url("../images/main/main-visual3.jpg")}
+#content1 .bgtype4{background-image:url("../images/main/main-visual4.jpg")}
+
+/* section 2 신현주 */
+/* 베이지 배경색 background:#fffef5*//* margin-left:-485px */
+#content2{background:url("../images/main/content2bg.jpg") repeat-y}
+#content2 .area{position:absolute;top:0px;left:50%;width:1000px;height:100%;margin-left:-385px;font-size:16px;color:#fff;text-align:center}
+#content2 .visual,#content2 .visual strong,#content2 .visual .rgbbox,#content2 .story,#content2 .story .more_btn,#content2 .video{position:absolute}
+#content2 .visual{width:1000px;height:400px;top:0;left:0px;background:url("../images/main/besop_content2_visual.jpg") no-repeat center center}
+
+#content2 .area{height:814px}/* 추가추가 */
+#content2 .area .content2_text .visual .rgbbox{top:125px;left:150px;width:700px;height:150px;background-color:rgba(0,0,0,0.5)}/*  */
+#content2 .area .content2_text .visual .rgbbox strong{top:125px;left:50px;font-size:20px;margin-top:-100px;color:#fff;text-align:center;line-height:45px;line-height:1.5}
+
+#content2 .story{top:420px;left:0;width:280px;height:394px;background:url("../images/main/story_lamp2.png") no-repeat center 80%;line-height:1.5}
+#content2 .story:hover{background-image:url("../images/main/story_lamp2_h.png" )}/* 404 387 */
+/* 바디에 line-height:1.5를 줫기 때문에 폰트사이즈 60+15(위쪽)+15(아래쪽)=90px이기때문에 height:60px 이상이어서 위치를 잘 못 잡은거다. 이걸땐 새로 잡아준다. */
+
+#content2 .story .more_btn{bottom:20px;font-size:16px;left:70px;z-index:10;width:150px;height:50px;background:#fff;border:1px solid #25412c;
+box-shadow:-1px 1px 0px rgba(37, 65, 44, 1), -2px 2px 0px rgba(37, 65, 44, 1),-3px 3px 0px rgba(37, 65, 44, 1), -4px 4px 0px rgba(37, 65, 44, 1), -5px 5px 0px rgba(37, 65, 44, 1);
+-webkit-transition:box-shadow 0.5s;
+-moz-transition:box-shadow 0.5s;
+-o-transition:box-shadow 0.5s;
+transition:box-shadow 0.5s;display:block;text-align:center;line-height:50px;color:#25412c}/* ;display:inline-block */
+#content2 .story .more_btn:hover{box-shadow:0px 0px 0px rgba(37, 65, 44, 1)}
+#content2 .story .more_btn:after {
+		content: '→';
+		display: inline-block;
+		padding-left: 14px;
+		line-height: 30px;
+		-moz-transform: translate(0, -1px);
+		-ms-transform: translate(0, -1px);
+		-webkit-transform: translate(0, -1px);
+		transform: translate(0, -1px);
+	}
+
+#content2 .video{top:420px;left:300px;width:700px;height:394px}/* 배경색 추가  탑 44   700x 394   */
+
+/* 
+------------------------------------------------------ */
+
+#content3{position:relative}
+#content3 .area{position:absolute;top:50%;left:50%;width:100%;height:950px;margin-top:-200px;margin-left:-485px;font-size:16px;color:#fff;text-align:center;border:1px solid orange}
+
+#content3{min-width:1170px;padding-left:215px}
+#content3 #area1,#content3 #area2{height:100%;float:left;}
+#content3 #area1{width:700px;overflow:hidden;min-height:814px;}
+#content3 #area1 ul{position:relative;}
+#content3 #area1 ul li{margin-bottom:6px;}
+#content3 #area2{position:relative;min-width:400px;padding:0 20px;}
+#content3 #area2 p{font-size:15px;color:#be5910;letter-spacing:-.5px;line-height:25px;}
+#content3 #area2 .txt1{padding:27px 0 75px;}
+#content3 #area2 p strong{font-size:50px;line-height:50px;font-family:High Tower Text;font-style:italic;color:#be5910;}
+#content3 #area2 #moreBtn{position:absolute;width:404px;right:10px;bottom:13px;}
+#content3 #area2 #moreBtn .btn1{margin-bottom:3px;}
+#content3 #area2 a{display:block;height:28px;font-size:14px;font-weight:lighter;line-height:26px;text-align:left;color:#fff;padding-left:15px;background:#25412c;border:1px solid transparent;}
+#content3 #area2 #moreBtn a:hover, #content3 #area2 #moreBtn a:focus{font-weight:normal;color:#be5910;border-color:#25412c;background:#fff url("../images/common/index d_btn_bg.png") no-repeat 98% 50%;}
+
+
+
+
+

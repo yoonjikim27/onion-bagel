@@ -1,0 +1,54 @@
+﻿@charset "utf-8";
+
+
+img{vertical-align:top}
+
+.blind{font-size:0;width:0;height:0;line-height:0;position:absolute;left:-9999px;text-indent:-9999px}
+
+/* -------- 모든 페이지 공통 스타일 -------- */
+/* -------- 1) 태그 초기화 -------- */
+body,ul,h1,h2,h3,dd,dt,li,div,p{margin:0px;padding:0px;list-style:none;line-height:15px}
+body{font-family:Noto Sans CJK KR,"맑은 고딕","malgun gothic","돋움",dotum;font-size:12px;color:#333}
+li{list-style:none}
+header,footer,section,article,aside,nav,hgroup,details,figure,figcaption{display:block}
+a{text-decoration:none}
+a:link,a:visited,a:hover,a:active{font-family:inherit;font-size:inherit;text-decoration:none;color:inherit}
+h1,h2,h3{font-family:inherit}
+address{font-style:normal;font-weight:normal}
+strong{font-weight:bold}
+img{border:0px;vertical-align:middle}
+
+/* -------- 2) 공통클래스 모음 -------- */
+.f_l{float:left}
+.f_r{float:right}
+.p_r{position:relative}
+.p_a{position:absolute}
+.blind{font-size:0px;line-height:0px;width:1px;height:1px;overflow:hidden;position:absolute;top:0px;left:-9999px;text-indent:-9999px}
+.clear:after{display:block;content:"";clear:both}
+
+/* -------- 3) skip -------- */
+#skip a{position:absolute;top:0px;left:-9999px;z-index:1000}
+#skip a:focus, #skip a:active{left:0px;width:100%;padding:10px 0;background:#f00;color:#fff;font-weight:bold;text-align:center}
+
+/* -------- footer -------- */
+#footer{width:1920;display:block;clear:both;content:"";height:434px;border-top:1px solid #c0c0c0}
+#footer #foot{width:1170px;margin:0 auto;height:100%}
+#footer #foot .foot_let{color:#be5910;font-size:14px;padding:30px 0px 10px 0}
+#footer #foot .foot_info{width:560px}
+#footer #foot .foot_info > li{float:left;padding: 20px 30px}
+#footer .foot_info span{font-weight:bold;display:block;font-size:13px;}
+#footer #foot .foot-left{width:250px;height:125px}
+#foot_left strong{display:block;padding-bottom:10px}
+#foot_left ul li{float:left;padding-top:10px;padding-bottom:60px}
+#footer #foot #foot_left #searchTxt{background:none;height:23px;border:1px solid #727171;color:#666}
+#footer #foot .foot_gnb1{width:97px}
+#footer #foot .foot_gnb1 ul li,#footer #foot .foot_gnb2 ul li,#footer #foot .foot_gnb3 ul li{font-weight:lighter}
+#footer #foot .foot_gnb1 ul li a:hover,#footer #foot .foot_gnb1 ul li a:focus,#footer #foot .foot_gnb2 ul li a:hover,#footer #foot .foot_gnb2 ul li a:focus,#footer #foot .foot_gnb3 ul li a:hover,#footer #foot .foot_gnb3 ul li a:focus{font-weight:bold}
+#footer #foot .foot_gnb1 > a,#footer #foot .foot_gnb2 > a,#footer #foot .foot_gnb3>a{font-size:14px}
+#footer #foot .s_form{width:40px;height:27px;background:#727171;color:#fff}
+#foot_left ul li a{display:block;padding-left:15px;line-height:1.6;height:15px}
+#footer #foot .foot_box{display:block;content:"";clear:both;width:1080px;height:82px;border:1px solid #c0c0c0;padding:10px 0;margin:60px auto}
+#footer #foot .foot_box address{padding-left:10px}
+
+
+
