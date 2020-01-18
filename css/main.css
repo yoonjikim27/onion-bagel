@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* 인덱스 왼쪽 헤더 푸터 */
 
-#wrapper{/*position:fixed*/;min-height:1000px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
+#wrapper{position:fixed;min-height:1000px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
 .logo{margin:52px 0 0 20px;padding:0;width:192px;height:81px}
 
 
