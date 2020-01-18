@@ -97,7 +97,7 @@ transition:box-shadow 0.5s;display:block;text-align:center;line-height:50px;colo
 #content3 #area2 #moreBtn{position:absolute;width:404px;right:10px;bottom:13px;}
 #content3 #area2 #moreBtn .btn1{margin-bottom:3px;}
 #content3 #area2 a{display:block;height:28px;font-size:14px;font-weight:lighter;line-height:26px;text-align:left;color:#fff;padding-left:15px;background:#25412c;border:1px solid transparent;}
-#content3 #area2 #moreBtn a:hover, #content3 #area2 #moreBtn a:focus{font-weight:normal;color:#be5910;border-color:#25412c;background:#fff url("../images/common/index d_btn_bg.png") no-repeat 98% 50%;}
+#content3 #area2 #moreBtn a:hover, #content3 #area2 #moreBtn a:focus{font-weight:normal;color:#25412c;border-color:#25412c;background:#fff url("../images/common/index d_btn_bg.png") no-repeat 98% 50%;}
 
 
 
