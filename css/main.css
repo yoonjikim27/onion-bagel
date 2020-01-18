@@ -2,14 +2,14 @@
 /* 인덱스 왼쪽 헤더 푸터 */
 
 #wrapper{position:fixed;min-height:1000px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
-.logo{margin:52px 0 0 20px;padding:0;width:192px;height:81px}
+.logo{margin:60px 0 0 20px;padding:0;width:192px;height:81px}
 
 
 #wrapper #header ul.navigation li a{font-size:16px;color:#fff}
 #gnb ul{margin-top:150px;}
 #gnb ul li{display:block;padding-bottom:20px;padding-left:20px;font-size:18px;}
 #gnb ul li a:hover{font-weight:strong;}/* 밑줄 추가 */
-#wrapper footer{margin:460px 10px 20px;padding:15px 10px;border-top:1px solid #fff;border-bottom:1px solid #fff;}
+#wrapper footer{margin:400px 10px 20px;padding:15px 10px;border-top:1px solid #fff;border-bottom:1px solid #fff;}
 #wrapper footer p{font-size:10px;line-height:1.5;font-weight:lighter;color:#fff;margin-top:10px;}
 #wrapper footer p#fwb{font-weight:normal;}/* 안됨! */
 #wrapper footer p:first-child{margin-top:0;}
@@ -34,8 +34,8 @@
 ------------------------------------------------------ */
 
 #content1 .area .visualBtn{width:900px;height:100px;background:#0d381a;margin:100px auto 0;background:rgba(12, 56, 26, 0.7)}
-#content1 .area .visualBtn li{float:left;width:205px;height:80px;z-index:100;padding:10px;border:1px solid transparent}
-#content1 .area .visualBtn li a{display:block;text-align:center;height:80px;line-height:80px;font-size:18px;color:#fff;}/* posr */
+#content1 .area .visualBtn li{float:left;width:205px;height:80px;z-index:100;padding:10px;}
+#content1 .area .visualBtn li a{display:block;text-align:center;height:80px;line-height:80px;font-size:18px;border:1px solid transparent;color:#fff;}/* posr */
 #content1 .area .visualBtn li a:hover, #content1 .area .visualBtn li a:focus{border-color:#fff}/* 205 110 */
 
 #content1 .bg{display:none;position:absolute;top:0px;left:0px;width:100%;background:no-repeat center top;z-index:-1}/* 920 heigth 스크립트  */
