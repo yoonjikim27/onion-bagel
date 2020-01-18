@@ -2,7 +2,7 @@
 /* 인덱스 왼쪽 헤더 푸터 */
 
 #wrapper{position:fixed;min-height:1000px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
-.logo{font-size:50px;font-family:High Tower Text;margin:60px 0 0 20px;padding:0;width:192px;height:81px}
+.logo{font-size:50px;font-family:High Tower Text;font-color:#fff;margin:60px 0 0 20px;padding:0;width:192px;height:81px}
 
 
 #wrapper #header ul.navigation li a{font-size:16px;color:#fff}
