@@ -34,7 +34,7 @@
 ------------------------------------------------------ */
 
 #content1 .area .visualBtn{width:900px;height:100px;background:#0d381a;margin:100px auto 0;background:rgba(12, 56, 26, 0.7)}
-#content1 .area .visualBtn li{float:left;width:205px;height:100px;z-index:100;padding:10px}
+#content1 .area .visualBtn li{float:left;width:205px;height:80px;z-index:100;padding:10px}
 #content1 .area .visualBtn li a{display:block;text-align:center;height:80px;line-height:80px;font-size:18px;color:#fff;border:1px solid transparent}/* posr */
 #content1 .area .visualBtn li a:hover, #content1 .area .visualBtn li a:focus{border-color:#fff}/* 205 110 */
 
