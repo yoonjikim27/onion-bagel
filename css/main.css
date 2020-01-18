@@ -27,7 +27,7 @@
 #content1 .area{position:absolute;top:50%;left:50%;width:1170px;height:400px;margin-top:-200px;margin-left:-485px;font-size:16px;color:#fff;text-align:center}/* margin-left:-585인데 왼쪽 #wrapper200픽셀을 계산하여 margin-left:-485px;로 줄여줌 */
 #content1 .content1_text{top:50%}
 #content1 .content1_text h1{font-size:26px;line-height:1.5}
-#content1 .content1_text h3{display:inline-block;font-size:22px;padding-top:20px;margin-top:20px}
+#content1 .content1_text h2{display:inline-block;font-size:22px;padding-top:20px;margin-top:20px}
 #content1 .content1_text p{padding-top:40px;font-size:18px;line-height:1.5}
 
 /* 
