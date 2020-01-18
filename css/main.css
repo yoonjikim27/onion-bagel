@@ -2,7 +2,7 @@
 /* 인덱스 왼쪽 헤더 푸터 */
 
 #wrapper{position:fixed;min-height:1000px;z-index:1000;top:0;bottom:0;background:rgba(12, 56, 26, 0.8);width:215px}
-.logo{margin:60px 0 0 20px;padding:0;width:192px;height:81px}
+.logo{font-size:50px;font-family:High Tower Text;margin:60px 0 0 20px;padding:0;width:192px;height:81px}
 
 
 #wrapper #header ul.navigation li a{font-size:16px;color:#fff}
@@ -26,8 +26,8 @@
 /* -------- section1 만의 스타일 -------- */
 #content1 .area{position:absolute;top:50%;left:50%;width:1170px;height:400px;margin-top:-200px;margin-left:-485px;font-size:16px;color:#fff;text-align:center}/* margin-left:-585인데 왼쪽 #wrapper200픽셀을 계산하여 margin-left:-485px;로 줄여줌 */
 #content1 .content1_text{top:50%}
-#content1 .content1_text h1{font-size:26px;line-height:1.5}
-#content1 .content1_text h2{display:inline-block;font-size:22px;padding-top:20px;margin-top:20px}
+#content1 .content1_text h2{font-size:26px;line-height:1.5}
+#content1 .content1_text h3{display:inline-block;font-size:22px;padding-top:20px;margin-top:20px}
 #content1 .content1_text p{padding-top:40px;font-size:18px;line-height:1.5}
 
 /* 
