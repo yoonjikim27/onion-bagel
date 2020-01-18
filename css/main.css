@@ -33,7 +33,7 @@
 /* 
 ------------------------------------------------------ */
 
-#content1 .area .visualBtn{width:900px;height:130px;background:#0d381a;margin:100px auto 0;background:rgba(12, 56, 26, 0.7)}
+#content1 .area .visualBtn{width:900px;height:100px;background:#0d381a;margin:100px auto 0;background:rgba(12, 56, 26, 0.7)}
 #content1 .area .visualBtn li{float:left;width:205px;height:110px;z-index:100;padding:10px}
 #content1 .area .visualBtn li a{display:block;text-align:center;height:110px;line-height:110px;font-size:20px;color:#fff;border:2px solid transparent}/* posr */
 #content1 .area .visualBtn li a:hover, #content1 .area .visualBtn li a:focus{border-color:#fff}/* 205 110 */
