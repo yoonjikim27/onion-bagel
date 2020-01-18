@@ -7,7 +7,7 @@
 
 #wrapper #header ul.navigation li a{font-size:16px;color:#fff}
 #gnb ul{margin-top:100px;}
-#gnb ul li{display:block;padding-bottom:20px;padding-left:20px;font-size:20px;}
+#gnb ul li{display:block;padding-bottom:20px;padding-left:20px;font-size:18px;}
 #gnb ul li a:hover{border-bottom:1px solid #fff}/* 밑줄 추가 */
 #wrapper footer{margin:260px 10px 20px;padding:15px 10px;border-top:2px solid #fff;border-bottom:2px solid #fff;}
 #wrapper footer p{font-size:12px;line-height:1.5;font-weight:lighter;color:#fff;margin-top:10px;}
@@ -25,7 +25,7 @@
 
 /* -------- section1 만의 스타일 -------- */
 #content1 .area{position:absolute;top:50%;left:50%;width:1170px;height:400px;margin-top:-200px;margin-left:-485px;font-size:16px;color:#fff;text-align:center}/* margin-left:-585인데 왼쪽 #wrapper200픽셀을 계산하여 margin-left:-485px;로 줄여줌 */
-#content1.content1_text{top:50%}
+#content1 .content1_text{top:50%}
 #content1 .content1_text h1{font-size:24px;line-height:1.5}
 #content1 .content1_text strong{display:inline-block;font-size:23px;padding-top:20px;margin-top:20px}
 #content1 .content1_text p{padding-top:40px;font-size:20px;line-height:1.5}
