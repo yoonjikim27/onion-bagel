@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(function(){
 	//신현주 story.html 부분
 			function parallaxScrolling () {
 				var _storyWrap = $("#storyWrap");
