@@ -1,17 +1,4 @@
 $(document).ready(function(){
-	/// 전체메뉴 여닫기
-	$("#box #allmenu .util_open").on("click",function  () {
-		var _util = $("#util");
-
-		$(this).hide().next().show().next().show().stop().animate({width:400});
-
-		//닫기 버튼은 누른 경우
-		$(this).next().on("click", function () {
-			$(this).hide().prev().show().siblings("#util").stop().animate({width:0},function () {
-				$(this).hide();
-			});
-		});		
-	});
 
 	//네비게이션
 	function gnb_on () {
