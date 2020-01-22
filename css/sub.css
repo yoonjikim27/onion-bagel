@@ -331,7 +331,7 @@ section{width:1086px;margin:0 auto;padding:0 42px;}
 
 
 /* -------- 3) 하단 푸터 -------- */
-#footer{width:100%;display:block;clear:both;content:"";height:434px;border-top:1px solid #c0c0c0;position:relative;}
+#footer{width:100%;clear:both;content:"";height:434px;border-top:1px solid #c0c0c0;position:relative;}
 #footer #foot{width:1170px;margin:0 auto;height:100%;position:absolute;top:35px;left:367px;}
 #footer #foot .foot_let{display:inline-block;color:#be5910;font-size:14px;font-weight:normal;width:800px;padding-left:20px;}
 #footer #foot .foot_info{width:600px;}
